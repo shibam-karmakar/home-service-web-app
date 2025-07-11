@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In & Login Buttons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            transition: background 0.3s;
+        }
+
+        .btn-signin {
+            background-color: #3498db;
+            color: white;
+        }
+
+        .btn-signin:hover {
+            background-color: #2980b9;
+        }
+
+        .btn-login {
+            background-color: #2ecc71;
+            color: white;
+        }
+
+        .btn-login:hover {
+            background-color: #27ae60;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="button-container">
+        <button class="btn btn-signin" onclick="alert('Redirect to Sign In Page')">Sign In</button>
+        <button class="btn btn-login" onclick="alert('Redirect to Login Page')">Login</button>
+    </div>
+    <button onclick="window.location.href='signin.html'">Sign In</button>
+
+
+</body>
+
+</html>
